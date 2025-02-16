@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Decor website</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <style>
+      html,
+      body {
+        font-family: "Poppins", serif;
+      }
+    </style>
+  </head>
+
+  <body class="m-5">
+    <main class="max-w-full m-auto">
+      <nav
+        class="flex justify-between items-center p-5 bg-[#F5F5F5] rounded-2xl bg-[#F5F5F5]"
+      >
+        <h1 class="text-xl font-medium">Decor</h1>
+        <ul class="items-center gap-10 cursor-pointer hidden md:flex">
+          <li class="text-xs font-medium">Home</li>
+          <li class="text-xs">About us</li>
+          <li class="text-xs">New Collection</li>
+          <li class="text-xs">Discount Collection</li>
+        </ul>
+        <section class="flex items-center gap-5 md:gap-10">
+          <div
+            class="bg-white rounded-2xl w-8 h-8 flex items-center justify-center shadow-2xl"
+          >
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div
+            class="bg-white rounded-2xl w-8 h-8 flex items-center justify-center shadow-xl"
+          >
+            <i class="fa-solid fa-bag-shopping"></i>
+          </div>
+          <div
+            class="bg-white rounded-2xl w-8 h-8 flex items-center justify-center shadow-xl"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </section>
+      </nav>
+      <section
+        class="flex justify-between items-center gap-5 bg-[#F5F5F5] p-5 rounded-2xl shadow-md flex-wrap md:flex-nowrap my-5"
+      >
+        <div class="flex flex-col gap-4">
+          <h1 class="text-4xl md:text-5xl font-medium">
+            Lorem, ipsum dolor sit amet consectetur adipisicing.
+          </h1>
+          <p class="text-md md:text-lg">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore,
+            labore.
+          </p>
+          <p
+            class="mt-5 border-1 self-start py-3 px-8 rounded-2xl text-sm font-medium"
+          >
+            Explore Collection
+          </p>
+        </div>
+        <img
+          src="asset/basketball-player.svg"
+          alt="image"
+          class="w-full md:w-1/3 md:h-96 object-contain rounded-2xl object-[25%_75%]"
+        />
+      </section>
+      <section
+        class="my-5 bg-[#F5F5F5] p-5 rounded-2xl flex flex-col gap-5 shadow-md"
+      >
+        <p class="text-center text-xs font-medium">
+          Trusted by 4,000+ companies
+        </p>
+        <div
+          class="flex items-center justify-evenly gap-5 flex-wrap md:flex-nowrap"
+        >
+          <img class="w-10" src="asset/adobe-xd-logo-svgrepo-com.svg" alt="" />
+          <img
+            class="w-10"
+            src="asset/apple-black-logo-svgrepo-com.svg"
+            alt=""
+          />
+          <img class="w-10" src="asset/bmw-logo-svgrepo-com.svg" alt="" />
+          <img
+            class="w-10"
+            src="asset/facebook-messenger-logo-svgrepo-com.svg"
+            alt=""
+          />
+          <img
+            class="w-10"
+            src="asset/google-icon-logo-svgrepo-com.svg"
+            alt=""
+          />
+          <img
+            class="w-10"
+            src="asset/mcdonald-s-15-logo-svgrepo-com.svg"
+            alt=""
+          />
+          <img class="w-10" src="asset/twitter-3-logo-svgrepo-com.svg" alt="" />
+        </div>
+      </section>
+      <section class="my-5 bg-white flex items-center gap-5 flex-wrap">
+        <div
+          class="flex flex-wrap justify-center items-center bg-[#F5F5F5] p-5 rounded-2xl shadow-md grow-2"
+        >
+          <div class="flex flex-col gap-2">
+            <h1 class="text-5xl">Lorem ipsum dolor sit amet.</h1>
+            <p class="text-sm">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis,
+              illo?
+            </p>
+            <span
+              class="mt-5 border-1 self-start py-3 px-8 rounded-2xl text-sm font-medium"
+              >Explore Collection</span
+            >
+          </div>
+          <img class="w-50" src="asset/character.svg" alt="" />
+        </div>
+        <div
+          class="bg-[#F5F5F5] p-5 grow-2 shadow-md flex justify-center rounded-2xl"
+        >
+          <img class="w-50" src="asset/character (1).svg" alt="" />
+        </div>
+      </section>
+      <section class="my-5 bg-white flex items-center gap-5 flex-wrap">
+        <div
+          class="bg-[#F5F5F5] p-5 grow-2 shadow-md flex justify-center rounded-2xl"
+        >
+          <img class="w-50" src="asset/lady-teacher.svg" alt="" />
+        </div>
+        <div
+          class="flex flex-wrap justify-center items-center bg-[#F5F5F5] p-5 rounded-2xl shadow-md grow-1"
+        >
+          <div class="flex flex-col gap-2">
+            <h1 class="text-5xl">Lorem ipsum dolor sit amet.</h1>
+            <p class="text-sm">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis,
+              illo?
+            </p>
+            <span
+              class="mt-5 border-1 self-start py-3 px-8 rounded-2xl text-sm font-medium"
+              >Explore Collection</span
+            >
+          </div>
+          <img class="w-50" src="asset/character (3).svg" alt="" />
+        </div>
+      </section>
+      <section
+        class="flex justify-between items-center gap-5 bg-[#F5F5F5] p-5 rounded-2xl shadow-md flex-wrap md:flex-nowrap my-5"
+      >
+        <div class="flex flex-col gap-4">
+          <h1 class="text-4xl md:text-5xl font-medium">
+            Lorem, ipsum dolor sit amet consectetur adipisicing.
+          </h1>
+          <p class="text-md md:text-lg">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore,
+            labore.
+          </p>
+          <p
+            class="mt-5 border-1 self-start py-3 px-8 rounded-2xl text-sm font-medium"
+          >
+            Explore Collection
+          </p>
+        </div>
+        <img
+          src="asset/character (2).svg"
+          alt="image"
+          class="w-full md:w-1/3 md:h-96 object-contain rounded-2xl object-[25%_75%]"
+        />
+      </section>
+      <section class="flex flex-wrap md:flex-nowrap gap-5">
+        <div
+          class="flex items-center flex-wrap md:flex-nowrap bg-[#F5F5F5] rounded-2xl shadow-md p-5"
+        >
+          <div class="flex flex-col gap-4">
+            <h1 class="text-4xl">Lorem ipsum dolor sit amet consectetur.</h1>
+            <p class="text-sm">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Perferendis provident iusto in quis deserunt aliquam fugiat
+              corporis quas maiores dolor.
+            </p>
+          </div>
+          <img
+            class="w-40 object-cover rounded-2xl"
+            src="asset/basketball-player.svg"
+            alt=""
+          />
+        </div>
+        <div
+          class="grid grid-rows-2 grid-cols-2 gap-5 w-full justify-items-center p-5"
+        >
+          <img
+            class="w-40 object-cover rounded-2xl bg-[#F5F5F5] shadow-md"
+            src="asset/character.svg"
+            alt=""
+          />
+
+          <img
+            class="w-40 object-cover rounded-2xl bg-[#F5F5F5] shadow-md"
+            src="asset/character (1).svg"
+            alt=""
+          />
+
+          <img
+            class="w-40 object-cover rounded-2xl bg-[#F5F5F5] shadow-md"
+            src="asset/lady-teacher.svg"
+            alt=""
+          />
+
+          <img
+            class="w-40 object-cover rounded-2xl bg-[#F5F5F5] shadow-md"
+            src="asset/character (2).svg"
+            alt=""
+          />
+        </div>
+      </section>
+      <footer
+        class="my-5 bg-[#F5F5F5] p-5 rounded-2xl flex gap-10 flex-wrap md:flex-nowrap"
+      >
+        <div class="w-full flex flex-col gap-2">
+          <h1 class="text-2xl font-bold">Quick Action</h1>
+          <ul>
+            <li class="text-sm font-medium">Home</li>
+            <li class="text-sm font-medium">Discount Collection</li>
+            <li class="text-sm font-medium">New Collection</li>
+            <li class="text-sm font-medium">About us</li>
+            <li class="text-sm font-medium">Terms & Condition</li>
+            <li class="text-sm font-medium">Trusted Companies</li>
+          </ul>
+        </div>
+        <div class="md:border-1"></div>
+        <div class="w-full flex flex-col gap-2">
+          <h1 class="text-2xl font-bold">Decor</h1>
+          <p class="text-sm font-medium">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo sit
+            veniam maxime vitae nemo reprehenderit id nam. Exercitationem,
+            rerum. Nesciunt.
+          </p>
+          <div class="flex items-center border-1 gap-2 p-2 rounded-2xl px-2">
+            <i class="fa-solid fa-envelope"></i>
+            <input
+              class="flex-1 outline-none text-sm"
+              type="text"
+              placeholder="Enter your email"
+            />
+            <i class="fa-solid fa-paper-plane"></i>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="text-sm font-medium">Facebook</span>
+            <hr class="w-8" />
+            <span class="text-sm font-medium">Twitter</span>
+            <hr class="w-8" />
+            <span class="text-sm font-medium">Instagram</span>
+          </div>
+        </div>
+        <div class="md:border-1"></div>
+        <div class="w-full flex flex-col gap-2">
+          <h1 class="text-2xl font-bold">Contact Us</h1>
+          <p class="text-sm font-medium">Helpline <span>123456789</span></p>
+          <p class="text-sm font-medium">
+            Email <span>project@gmail.com</span>
+          </p>
+          <p class="text-sm font-medium">Address <span>India</span></p>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
